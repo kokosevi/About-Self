@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/poll_measure.css">
+    <script src="../scripts/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+
+
+</head>
+
+    <!-- START HEADER -->
+    <header>
+        <nav>
+
+                <label class="logo_image"> <img src="../images/Hand.jpg"  width="70px" height="70px"></label>
+                <label class="logo vertical_center">About Self</label>
+            
+            
+                <ul>
+                    <li><a href="/pages/About.html" class="color_font active">About</a></li>
+                </ul>
+            
+            
+                <hr>    
+        </nav>
+        
+    </header>
+    <!-- END HEADER -->
+
+
+
+<body>
+
+<div class="window_container">
+
+
+
+    <div class="meter_container">
+        <img src="../images/importance_meter.png" alt="Error" style="max-height: 95%;">
+    </div>
+
+    <div class="item_container">
+            <div id="ABH_1"; class="btn_salient">
+                <hr class="hr_item">
+                Ich verwende sehr viel Zeit darauf, in meinem Umfeld intensive Beziehungen aufzubauen.
+            </div>
+    </div>
+
+    <div class="item_container">
+        <div id="ABH_2"; class="btn_salient" style="top: 100px;">
+            <hr class="hr_item">
+            Ich verwende sehr viel Zeit darauf, in meinem Umfeld intensive Beziehungen aufzubauen.
+        </div>
+</div>
+
+    
+
+</div>
+
+
+  <!-- START SCRIPTS TO DRAG -->
+  
+<script>
+    $(function() {
+    $( "#ABH_1" ).draggable();
+    });
+ </script>
+
+<script>
+    $(function() {
+    $( "#ABH_2" ).draggable();
+    });
+ </script>
+ <!-- END SCRIPTS TO DRAG -->
+
+
+ <div style="position: fixed; bottom: 10vh; left: 40vw;">
+    <a href="/pages/evaluation.html">
+        <button class="btn_standart">
+            Next
+        </button>
+    </a>
+    
+
+</div>
+
+<script src="../scripts/poll_measure.js">
+        
+</script>
+
+</body>
+</html>
