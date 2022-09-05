@@ -1,0 +1,41 @@
+.flexbox_container_initiate_poll
+{
+   display: flex;
+    width: 100vw;
+    height: 40vh;
+    background-color: lightblue;
+    /* border: 2px solid black; */
+    /* border-radius: 1em; */
+    align-items: stretch;
+    
+    
+ }
+
+ 
+
+
+ .flexbox_item_image_1{
+    width: 50%;
+    border: 2px solid black;
+    
+    
+ }
+
+ .flexbox_item_text{
+    width: 50%;
+    border: 2px solid black;
+    align-self: right;
+    
+ }
+
+
+ /* START IMAGE FIX BOXES */
+
+ img.fit_boxes{
+    height: 100%;
+    border: 2px solid black;
+    
+
+
+ }
+  /* END IMAGE FIX BOXES */
