@@ -67,18 +67,94 @@ button.btn_standart
 
             background-color: white;
             border: 2px solid black;
-            color: pink;
+            color: lightblue;
             padding: 5px 10px;
             text-align: center;
-            display: inline-block;
             font-size: 20px;
+            font-weight: 600;
             margin: 10px 30px;
             cursor: pointer;
-            border-radius: 10px;
+            border-radius: 15px;
 
 
 }
 /* END STANDART BUTTON */
+
+/* START POLL CONTAINER */
+
+
+div.initiate_poll_container
+{
+   display: flex;
+    width: 100vw;
+    height: 40vh;
+    background-color: lightblue;
+
+ 
+ }
+
+ div.text_container{
+    width: 50%;
+    height: 100%;
+    /* items in container are flexbox */
+    display: flex;
+    /* center items */
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    /* items are vertically close  */
+    align-content: center;
+    font-size: 2em;
+    
+ }
+ div.text {
+    
+    min-width: 100%;
+    text-align: center;
+    
+ }
+
+ div.button {
+    position: absolute;
+    align-self: flex-end;
+    text-align: center;
+    
+    
+ }
+
+ /* START IMAGE CONTAINERS */
+
+ div.image_container{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    
+     
+    
+ }
+
+
+ img.fit_boxes{
+    /* scale image depending on container */
+    height: 100%;  
+    /* position image to the right */
+    float: right;
+    /* limit image width */
+    max-width: 50vw;
+    /* keep aspect ratio */
+    object-fit: cover;
+        
+    
+  
+
+
+ }
+  /* END IMAGE CONTAINERS */
+
+/* END POLL CONTAINER */
 
 
 
