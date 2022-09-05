@@ -14,7 +14,12 @@
 
         div.whole_container{
             position: relative;
-            border: 1px solid black;
+            width: 100vw;
+            height: 40vh;
+            background-color: lightblue;
+            display: flex;
+            
+            align-items: center;
             
 
         }
@@ -28,33 +33,42 @@
 
 
         div.item_container {
-            border: 1px solid black;
-            width: 100vw;
-            position: absolute;
-            
-            
 
+            margin: 2vh;
+            width: 100px;
+            height: 100px;
+            background-color: red;
         }
+
+        div.left_container {
+            
+            width: 50vw; 
+            height: 35vh;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            font-size: 35px;
+        }
+
+        div.right_container {
+            width: 50vw;
+            height: 35vh;
+            background-color: brown;
+            
+            
+        }
+            img.container {
+                height: 100%;
+                float: right;
+                max-width: 50vw;
+                object-fit: cover;
+                
+            }
+    
         
-
-div.btn_salient
-{
-
-            background-color: white;
-            border: 2px solid black;
-            color: black;
-            padding: 0.5em 1em;
-            text-align: center;
-            font-size: 15px;
-            cursor: pointer;
-            border-radius: 5px 5px 0px 0px;
-            width: 150px;
-            min-width: 150px;
-            float: right;
-            
-            
-}
-
 
     </style>
 
@@ -64,31 +78,33 @@ div.btn_salient
 <body>
 
 
-    <div class="salient">
 
-        <!-- ABH_1 -->
-            <span>
-                <div id="ABH_1" style="background-color: white" class="btn_salient">
-                    Ich verwende sehr viel Zeit darauf, in meinem Umfeld intensive Beziehungen aufzubauen.
-                </div>
-            </span>
-        <!-- ABH_2 -->
-            <span>
-                <div id="ABH_2" style="background-color: white" class="btn_salient">Ein enger Kontakt zu meiner Verwandtschaft ist mir zu lästig.</div>
-             </span>
+
+<div class="whole_container">
+    <div class="item_container"></div>
+    <div class="item_container"></div>
+    <div class="item_container"></div>
+
+</div>
+
+<hr>
+
+<div class="whole_container">
+    <div class="left_container">
+        <div>What are you after in </div>
+        
+        <div><h1>life?</h1></div>
+        
+    </div>
+    <div class="right_container">
+        <img src="../images/running_after.jpg" class="container">
     </div>
 
 
 
-    <div style="margin-left: 35vw; position: absolute; top: 40vh;">
-        
-            <button id="test_print"> 
-                Print out Stuff
-            </button>
-        
+</div>
 
 
-    </div>
 
 
 
