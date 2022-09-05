@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about-self</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/flexbox.css">
+
     
     
 
@@ -32,16 +32,27 @@
     <!-- END HEADER -->
 
     <!-- START FIRST POLL -->
-    <div class="flexbox_container_initiate_poll">
-        <div class="flexbox_item_text">
-            <h1>
-                What are you after in <br> LIFE?
-            </h1>
+    <div class="initiate_poll_container">
+        <div class="text_container">
+            <div class="text">
+                What are you after in
+            </div>
+            <div class="text">
+                <h1>LIFE?</h1>
+            </div>
+            
+            <div class="button">
+                <a href="pages/BasicNeeds_Salient_1.html">
+                    <button id="start_poll_basic_needs" class="btn_standart">
+                        Find out
+                 </button>
+                </a>
+            </div>
         </div>
         
         
-        <div class="flexbox_item_image_1">
-            <img src="images/running_after.jpg" class="fit_boxes">
+        <div class="image_container">
+            <img src="images/running_after.jpg" class="container">
         </div>
 
     </div>
@@ -50,11 +61,7 @@
 
 
     <!-- Start Poll -->
-    <a href="pages/BasicNeeds_Salient_1.html">
-        <button id="start_poll_basic_needs" class="btn_standart">
-            Find out
-     </button>
-    </a>
+
 
     <script src="scripts/index.js"></script> 
 
